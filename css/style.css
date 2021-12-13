@@ -79,6 +79,9 @@ body {
 .home-image path:hover {
     opacity: 1; /* псевдоклассом делаем прозрачность */
 }
+path.current-floor {
+    opacity: 1;
+}
 .counter-group {
     display: flex;
     flex-direction: column; /* элементы встали друг за другом сверху вниз */
